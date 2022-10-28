@@ -1,0 +1,44 @@
+.grandtitre{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.titre{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.slogan{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.petitTitre{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: justify;
+    padding : 1rem;
+    margin: 0;
+}
+
+.frame{
+    width: 35%;
+    height: 45%;
+    border-color: aliceblue;
+    display: flex;
+    padding : 1rem;
+    margin: 0;
+    float: left;
+}
+
+.cadre{
+    border : 3px solid;
+    background-color: rgba(101, 149, 239, 0.686);
+    padding : 1rem;
+}
+
+.texte{
+    text-align:justify;
+    padding: 1rem;
+    margin: 1rem;
+}
