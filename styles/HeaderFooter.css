@@ -13,7 +13,7 @@ html, body {
     display: grid;
     font-weight: bold;
     background-color: #4f4b50;
-    text-align:justify;
+    text-align:center;
 }
 
 
@@ -21,7 +21,14 @@ nav {
     background-color : var(--tool-color);
     height : 2.5rem;
     display: flex;
-    justify-items: space-between;
+}
+
+.right{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    display: flex;
+    margin-left: auto;
 }
 
 nav a {
@@ -38,29 +45,12 @@ nav a:hover {
     background-color:var(--button-color);
 }
 
-
-nav ul{
-    list-style-type: none;
-}
-
 a img{
     width: 46px;
     height: 44px;
     border-radius:40px; 
 }
 
-ul {
-    padding:0;
-    margin: 0;
-    display: flex;
-    margin-right: 15px;
-}
-/*
-.K{
-    display: flex;
-    jus
-}
-*/
 
 .bg{
     background-color: #474647ae;
@@ -73,22 +63,23 @@ ul {
 
 main {
     background-image: url(../images/flout.jpg);
-   /* filter: blur(10px);*/
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 footer{
     background-color : var(--tool-color);
-    height : 2rem;
+    height : 2.5rem;
 }
 
 footer a{
     text-decoration: none;
     color: aliceblue;
     transition: all 0.3s;
-    padding: 0.3rem;
-    border-radius:10px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer a:hover {

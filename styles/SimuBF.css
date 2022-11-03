@@ -1,0 +1,68 @@
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+form {
+    width:75%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: rgba(168, 50, 197, 0.899);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container h1{
+    display :block;
+    text-align:center;
+    padding-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #8b3fe2c7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:1px solid #000000;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(206, 142, 228);
+    color: #000000;
+    border: 1px solid #000000;
+}
+.button {
+    background-color: rgba(158, 62, 232, 0.758);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:10px; 
+  }
+
+.button:hover {
+    color: lavenderblush;
+    background-color:rgba(178, 139, 215, 0.678);
+}
+
+a:hover{
+  color : rgb(239, 239, 239);
+}
